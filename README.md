@@ -7,8 +7,7 @@ The graphs we produce are (to our knowledge) the largest produced using deep-lea
 
 Real Facebook Page-Page            |  HiGGs Facebook Page-Page
 :-------------------------:|:-------------------------:
-![](https://github.com/higgs-neurips-23/HiGGs/blob/main/figures/Real_fb.png)  |  
-![](https://github.com/higgs-neurips-23/HiGGs/blob/main/figures/HiGGs_fb.png)
+![](https://github.com/higgs-neurips-23/HiGGs/blob/main/figures/Real_fb.png)  |  ![](https://github.com/higgs-neurips-23/HiGGs/blob/main/figures/HiGGs_fb.png)
  22470 Nodes, 171002 Edges  |  21643 Nodes, 283552 Edges  
 
 
