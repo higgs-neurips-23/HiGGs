@@ -1,0 +1,10 @@
+name: 'fb_hierarchies'            # ego, ego_positional
+datadir: 'data/fb/'
+h: 1
+random_subset: null
+pin_memory: False
+subsample: False
+resolution: 7
+max_size: 400 # for non-subsample is reasonable
+regime: 'majority' # alt: 'majority' for graph classing by majority node class TODO: add similar to sampling
+dataset_testing: False

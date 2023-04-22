@@ -1,0 +1,9 @@
+defaults:
+    - general : sample_fb
+    - model : discrete_small
+    - train : train_default
+    - dataset : fb_hierarchies
+
+
+
+

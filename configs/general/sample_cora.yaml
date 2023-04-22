@@ -1,0 +1,15 @@
+# General settings
+name: 'cora'      # Warning: 'debug' and 'test' are reserved name that have a special behavior
+
+wandb: 'online'             # online | offline | disabled
+gpus: 1                     # Multi-gpu is not implemented on this branch
+
+root_path: null # Should be absolute path to data directory
+
+h1_model: null # Use absolute path
+glue_model: null # Use absolute path
+h2_model:  null # Use absolute path
+
+samples_to_generate: 200
+h1_batch_size: 1
+glue_batch_size: 1

@@ -1,0 +1,24 @@
+# General settings
+name: 'graph-tf-model'      # Warning: 'debug' and 'test' are reserved name that have a special behavior
+
+wandb: 'online'             # online | offline | disabled
+gpus: 1                     # Multi-gpu is not implemented on this branch
+
+
+resume: null            # If resume, path to ckpt file from outputs directory in main directory
+test_only: null # Use absolute path
+
+check_val_every_n_epochs: 10
+sample_every_val: 2
+val_check_interval: null
+samples_to_generate: 4       # We advise to set it to 2 x batch_size maximum
+samples_to_save: 4
+chains_to_save: 0
+log_every_steps: 5
+number_chain_steps: 50        # Number of frames in each gif
+
+final_model_samples_to_generate: 40
+final_model_samples_to_save: 40
+final_model_chains_to_save: 4
+
+evaluate_all_checkpoints: False

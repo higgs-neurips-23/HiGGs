@@ -1,0 +1,10 @@
+name: 'sbm_dgd'            # ego, ego_positional
+datadir: 'data/sbm/'
+h: 'dgd'
+random_subset: null
+pin_memory: False
+subsample: False
+resolution: 'dgd'
+max_size: 500 # for non-subsample is reasonable
+regime: 'majority' # alt: 'majority' for graph classing by majority node class, 'size' for number of junctions TODO: add similar to sampling
+dataset_testing: False
