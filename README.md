@@ -13,8 +13,8 @@ Real Facebook Page-Page            |  HiGGs Facebook Page-Page
 This implementation makes use of DiGress (https://github.com/cvignac/DiGress) as well as our variant implementation for edge prediction edge-DiGress.
 
 ## Download the data
-  - SBM data available at https://github.com/KarolisMart/SPECTRE/tree/main/data
-  - Cora and Facebook graphs are downloaded in-code during training or sampling
+  - We use the SBM graph data from Martinkus et al., available at https://github.com/KarolisMart/SPECTRE/tree/main/data
+  - The Cora and Facebook graphs we use are downloaded in-code during training or sampling, and are available from SNAP at https://snap.stanford.edu/data/
 
 ## Running Code
  - Pre-trained models for each dataset can be downloaded using `download_models.sh`
@@ -24,7 +24,7 @@ This implementation makes use of DiGress (https://github.com/cvignac/DiGress) as
  - For conda simply run `conda env create -f higgs.yml`
 
 ### Model Training
-  - Model code is under `dgd/` and is based on DiGress from https://github.com/cvignac/DiGress
+  - Model code is under `dgd/` and is based on DiGress from Vignac et al., available at https://github.com/cvignac/DiGress
   - Config files are available for the SBM, Cora and Facebook graphs
   - Training for an individual hierarchy can be run as `python dgd/main.py dataset=dataset h=hierarchy`
   - Scripts for training all models are under scripts/train_X.sh
